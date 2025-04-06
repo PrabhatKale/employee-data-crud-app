@@ -1,0 +1,9 @@
+<h1>Add Employee</h1>
+<form method="POST">
+    {% csrf_token %}
+    Name: <input type="text" name="name"><br>
+    Email: <input type="email" name="email"><br>
+    Phone: <input type="text" name="phone"><br>
+    Position: <input type="text" name="position"><br>
+    <button type="submit">Save</button>
+</form>
